@@ -53,7 +53,7 @@ void criarCruz(int cruz[HAB][HAB]) {
     }
 }
 
-// Cria forma de octaedro (losango de alcance Manhattan ≤ 2)
+// Cria forma de octaedro 
 void criarOctaedro(int losango[HAB][HAB]) {
     for (int i = 0; i < HAB; i++) {
         for (int j = 0; j < HAB; j++) {
